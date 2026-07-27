@@ -1,0 +1,15 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_problem1",
+          "label": "Verify the firstname_lastname view was created",
+          "description": "Runs problem1(), which should create a view containing only firstname and lastname from site_user, then compares its contents to a direct query of site_user."
+        }
+      ]
+    }
+  ]
+}
